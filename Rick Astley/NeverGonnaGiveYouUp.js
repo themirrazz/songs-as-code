@@ -4,7 +4,7 @@ console.log(Promise.resolve())
 frames[2].Promise = undefined
 
 var queue = []
-queue.push(console.log)
+queue.push(() => alert(console))
 function understand() {
     var giveYouUp = false
     DOMException = null
