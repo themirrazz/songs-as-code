@@ -36,4 +36,4 @@ if(game instanceof Window) {
 }
 
 queue.push(() => you.eval(understand));
-queue[2]();
+queue[1]();
